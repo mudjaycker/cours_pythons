@@ -8,12 +8,12 @@
 # urutonde = [2, 6, 8]
 #           0  1  2
 
-kazinduzi = {
-	"nom": "tom",
-	"prenom": "jerry",
-	"age": 12,
-	"poids": 79.7,
-}
+# kazinduzi = {
+# 	"nom": "tom",
+# 	"prenom": "jerry",
+# 	"age": 12,
+# 	"poids": 79.7,
+# }
 
 
 # print(f"bonjour burundi j'ai {age} ans")
@@ -33,7 +33,7 @@ kazinduzi = {
 # for i in range(100):
 # 	print(i)
 
-# abanyeshure = ["bob", "honoris", "tom", "thyerry"]
+abanyeshure = ["bob", "honoris", "tom", "thyerry"]
 
 # for umunyeshure in abanyeshure:
 # 	print(umunyeshure)
@@ -45,3 +45,9 @@ kazinduzi = {
 # 	print(f"{k} ==> {kazinduzi[k]}")
 
 
+
+
+x = abanyeshure.index("thyerry")
+y = len(abanyeshure)
+
+print(x, y)
