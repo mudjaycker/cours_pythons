@@ -5,15 +5,15 @@
 
 # izina = "J'ai"
 
-urutonde = [2, 6, 8]
+# urutonde = [2, 6, 8]
 #           0  1  2
 
-# kazinduzi = {
-# 	"nom": "tom",
-# 	"prenom": "jerry",
-# 	"age": 12,
-# 	"poids": 79.7,
-# }
+kazinduzi = {
+	"nom": "tom",
+	"prenom": "jerry",
+	"age": 12,
+	"poids": 79.7,
+}
 
 
 # print(f"bonjour burundi j'ai {age} ans")
@@ -32,3 +32,14 @@ urutonde = [2, 6, 8]
 
 # for i in range(100):
 # 	print(i)
+
+# abanyeshure = ["bob", "honoris", "tom", "thyerry"]
+
+# for umunyeshure in abanyeshure:
+# 	print(umunyeshure)
+
+for key, value in kazinduzi.items():
+	print(f"{key} = {value}")
+
+# for k in kazinduzi:
+# 	print(f"{k} ==> {kazinduzi[k]}")
