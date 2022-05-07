@@ -1,9 +1,16 @@
 kalist = [3, 9, 14, 18, 2003, 66]
 
 
-somme = 0
+# somme = 0
 
-for i in kalist:
-	somme += i
+# for i in kalist:
+# 	somme += i
 
-print(somme)
+# print(somme)
+# a = sum(kalist)
+# print(a)
+
+fact = 1
+for i in range(1,5):
+	print(i)
+
