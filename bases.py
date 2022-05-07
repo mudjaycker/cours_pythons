@@ -38,8 +38,10 @@ kazinduzi = {
 # for umunyeshure in abanyeshure:
 # 	print(umunyeshure)
 
-for key, value in kazinduzi.items():
-	print(f"{key} = {value}")
+# for key, value in kazinduzi.items():
+# 	print(f"{key} = {value}")
 
 # for k in kazinduzi:
 # 	print(f"{k} ==> {kazinduzi[k]}")
+
+
