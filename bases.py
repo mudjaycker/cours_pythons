@@ -16,4 +16,4 @@ kazinduzi = {
 }
 
 
-print(f"bonjour burundi j'ai {age} ans")
+# print(f"bonjour burundi j'ai {age} ans")
