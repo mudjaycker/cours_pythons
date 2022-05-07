@@ -10,6 +10,9 @@ kalist = [3, 9, 14, 18, 2003, 66]
 # a = sum(kalist)
 # print(a)
 
-fact = 5
-for i in range(1,fact):
-	fact *= i 
+fact = 1
+for i in range(1,5):
+	fact *= (i+1)
+
+
+# next day we'll learn conditions and functions
