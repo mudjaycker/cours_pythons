@@ -5,8 +5,8 @@
 
 # izina = "J'ai"
 
-# urutonde = [2, 6, 8]
-# #           0  1  2
+urutonde = [2, 6, 8]
+#           0  1  2
 
 # kazinduzi = {
 # 	"nom": "tom",
@@ -20,8 +20,12 @@
 # print(kazinduzi["nom"])
 
 
-i = 0
-while(i<=100):
-	print(i)
-	# i = i+1 
-	i+=1
+# i = 0
+# while(i<=100):
+# 	print(i)
+# 	# i = i+1 
+# 	i+=1
+
+
+# for i in range(0, 100, 2):
+# 	print(i)
