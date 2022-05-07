@@ -1,4 +1,5 @@
 entier = 7
+age = 6
 
 decimale = 8.9976
 
@@ -15,4 +16,4 @@ kazinduzi = {
 }
 
 
-print(kazinduzi)
+print(f"bonjour burundi j'ai {age} ans")
