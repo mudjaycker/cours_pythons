@@ -14,8 +14,9 @@ tab = [1,4,6,3]
 tab2 = [4.6 , 8.9, 10.11]
 
 
-def soustraction(a, b):
-	print(a-b)
+# def soustraction(a, b):
+# 	print(a-b)
 
 
-soustraction(b=6, a=8)
+# soustraction(b=6, a=8)
+
