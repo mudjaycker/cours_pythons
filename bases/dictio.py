@@ -4,7 +4,7 @@ dictionnaire = {
 	"province": "Gitega"
 }
 
-# x = dictionnaire["izina"]dictionnaire["province"]
+# x = dictionnaire["izina"] #dictionnaire["province"]
 # print(x)
 # print(dictionnaire["province"])
 
@@ -13,5 +13,8 @@ dictionnaire = {
 
 
 
-for k, v in dictionnaire.items():
-	print(f"{k} => {v}")
+# for k, v in dictionnaire.items():
+# 	print(f"{k} => {v}")
+
+
+# x = dictionnaire.get("matazirano")
