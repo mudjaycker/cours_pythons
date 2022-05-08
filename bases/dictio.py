@@ -17,4 +17,9 @@ dictionnaire = {
 # 	print(f"{k} => {v}")
 
 
-# x = dictionnaire.get("matazirano")
+# x = dictionnaire.get("imyaka")
+
+
+dictionnaire["imyaka"] = 17
+
+print(dictionnaire)
