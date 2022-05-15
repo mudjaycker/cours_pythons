@@ -1,22 +1,22 @@
-# ama fonctions
+# ama function
 
-# fonction pour la somme
-def somme(tableau):
+ub = [7, 9, 13, 11, 18, 7]
+ult = [6, 13.5, 15, 7, 8]
+
+def sum_et_moy1(l, lt): #sans valeur de retour (void)
 	s = 0
-	for i in tableau:
-		s = s+i
-	print(s)
+	for i in l:
+		s+=i
+	m = s/lt
+	print(m)
 
 
-tab = [1,4,6,3]
-# somme(tableau=tab)
+def sum_et_moy2(l): #avec valeur de retour (return)
+	s = 0
+	for i in l:
+		s+=i
+	m = s/len(l)
+	return m
 
-tab2 = [4.6 , 8.9, 10.11]
-
-
-# def soustraction(a, b):
-# 	print(a-b)
-
-
-# soustraction(b=6, a=8)
-
+x = sum_et_moy2(ult)
+print(x)
