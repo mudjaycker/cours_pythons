@@ -3,10 +3,10 @@ class Calculatrice:
         self.premiere = premiere_valeur
         self.seconde = seconde_valeur
         self.operators = {
-        "+": self.add(),
-        "-": self.soustr(),
-        "*": self.mult(),
-        "/": self.div()
+        "+": self.add,
+        "-": self.soustr,
+        "*": self.mult,
+        "/": self.div
         }
 
     
@@ -26,7 +26,7 @@ class Calculatrice:
         return "error"
     
     def case(self,op):
-        return self.operators.get(op, self.err())
+        return self.operators.get(op, self.err)()
 
 
 bandanya = "o"
