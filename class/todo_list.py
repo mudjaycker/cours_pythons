@@ -17,6 +17,7 @@ class Todolist:
     def __init__(
          self, title="NULL", details="NULL", deadline="NULL", resgister_date=dt.now(), is_completed=False
     ):
+
         self.title = title
         self.details = details
         self.resgister_date = resgister_date
@@ -35,23 +36,21 @@ class Todolist:
         con.close()
 
     @classmethod
-    def get_all(self):
+    def get_all(cls):
         con = sqlite3.connect("example.db")
         cur = con.cursor()
         cur.execute("SELECT * FROM todos")
         print(list(cur))
+
+    @classmethod
+    def get_whrere(cls, id_):
+        con = sqlite3.connect("example.db")
+        cur = con.cursor()
+        cur.execute(f"SELECT * FROM todos where todo_id={id_}")
+        return list(cur)
     
     def delete_where(self, id_):
         con = sqlite3.connect("example.db")
         cur = con.cursor()
         cur.execute(f"DELETE from todos where todo_id={id_}")
-
-
-
-# x = Todolist(title="mi", details="amigo", deadline= dt(2022, 5, 24, 22, 30))
-# x.add_data()
-# x.delete_where(3)
-# x.get_all()
-
-Todolist.get_all()
-
+        con.close()
