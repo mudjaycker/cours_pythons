@@ -29,7 +29,7 @@ class Todolist:
         con = sqlite3.connect("example.db")
         cur = con.cursor()
         cur.execute(
-            f"""INSERT INTO todos VALUES ('{self.title}', '{self.details}', 
+            f"""INSERT INTO todos VALUES (NULL,'{self.title}', '{self.details}', 
             '{self.resgister_date}', '{self.deadline}', '{self.is_completed}')"""
             )
         con.commit()
@@ -43,7 +43,7 @@ class Todolist:
 
 
 
-x = Todolist("mi", "amigo", dt(2022, 5, 24, 22, 30))
+x = Todolist(title="mi", details="amigo", deadline= dt(2022, 5, 24, 22, 30))
 x.add_data()
 x.get_all()
 
