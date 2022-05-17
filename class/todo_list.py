@@ -8,15 +8,16 @@ _CON = sqlite3.connect("example.db")
 cur =_CON.cursor()
 cur.execute(
 """CREATE TABLE IF NOT EXISTS  todos
-            (id int not null AUTO_INCREMENT ,title varchar(45), details text, register_date datetime, 
-            deadline datetime, is_completed varchar(5)), PRIMARY KEY(id)"""
+            (todo_id INTEGER PRIMARY KEY, title varchar(45), details text, register_date datetime, 
+            deadline datetime, is_completed varchar(5))"""
             )
 
 cur.close()
 class Todolist:
     def __init__(
-        self, title, details, deadline, resgister_date=dt.now(), is_completed=False
+         self, title, details, deadline, resgister_date=dt.now(), is_completed=False
     ):
+        self.todo_id = 1
         self.title = title
         self.details = details
         self.resgister_date = resgister_date
