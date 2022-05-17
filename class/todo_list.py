@@ -15,9 +15,8 @@ cur.execute(
 cur.close()
 class Todolist:
     def __init__(
-         self, title, details, deadline, resgister_date=dt.now(), is_completed=False
+         self, title="NULL", details="NULL", deadline="NULL", resgister_date=dt.now(), is_completed=False
     ):
-        self.todo_id = 1
         self.title = title
         self.details = details
         self.resgister_date = resgister_date
