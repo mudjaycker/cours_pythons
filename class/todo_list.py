@@ -48,9 +48,15 @@ class Todolist:
         cur = con.cursor()
         cur.execute(f"SELECT * FROM todos where todo_id={id_}")
         return list(cur)
-    
-    def delete_where(self, id_):
+
+    def update_where(self, id_):
         con = sqlite3.connect("example.db")
         cur = con.cursor()
-        cur.execute(f"DELETE from todos where todo_id={id_}")
+        cur.execute(f"""UPDATE todos SET title={self.title}, details={self.details}
+        register_date={self.resgister_date}, deadline={self.deadline}, is_completed={self.is_completed},   
+        where todo_id={id_}""")
         con.close()
+
+
+for x in Todolist.get_all():
+    print(x)

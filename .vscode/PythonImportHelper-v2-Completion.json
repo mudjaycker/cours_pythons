@@ -1,0 +1,378 @@
+[
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "igiharuro",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "igiharuro = 7\nimyaka = 25\nnyagakwabu = 8.9976\nijambo = \"J'ai de la chance\"\n# --------------------Variables ziri composEs-------------------------------------\nurutonde = [2, 6, 8] # (list)\nkazinduzi = {\n\t\"nom\": \"tom\",\n\t\"prenom\": \"jerry\",\n\t\"age\": 12,",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "imyaka",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "imyaka = 25\nnyagakwabu = 8.9976\nijambo = \"J'ai de la chance\"\n# --------------------Variables ziri composEs-------------------------------------\nurutonde = [2, 6, 8] # (list)\nkazinduzi = {\n\t\"nom\": \"tom\",\n\t\"prenom\": \"jerry\",\n\t\"age\": 12,\n\t\"poids\": 79.7,",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "nyagakwabu",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "nyagakwabu = 8.9976\nijambo = \"J'ai de la chance\"\n# --------------------Variables ziri composEs-------------------------------------\nurutonde = [2, 6, 8] # (list)\nkazinduzi = {\n\t\"nom\": \"tom\",\n\t\"prenom\": \"jerry\",\n\t\"age\": 12,\n\t\"poids\": 79.7,\n} # (dictionary) cank dict(muri python)",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "ijambo",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "ijambo = \"J'ai de la chance\"\n# --------------------Variables ziri composEs-------------------------------------\nurutonde = [2, 6, 8] # (list)\nkazinduzi = {\n\t\"nom\": \"tom\",\n\t\"prenom\": \"jerry\",\n\t\"age\": 12,\n\t\"poids\": 79.7,\n} # (dictionary) cank dict(muri python)\n#____________________________ Gu-afficha____________________________________",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "urutonde",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "urutonde = [2, 6, 8] # (list)\nkazinduzi = {\n\t\"nom\": \"tom\",\n\t\"prenom\": \"jerry\",\n\t\"age\": 12,\n\t\"poids\": 79.7,\n} # (dictionary) cank dict(muri python)\n#____________________________ Gu-afficha____________________________________\nprint(f\"je mfise imyaka {imyaka}\") # nimba ushaka gu-afficha variables hamwe n'amajambo\nprint(kazinduzi[\"nom\"]) # gutora no ku-afficha valeur ya nom iri muri kazinduzi",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "kazinduzi",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "kazinduzi = {\n\t\"nom\": \"tom\",\n\t\"prenom\": \"jerry\",\n\t\"age\": 12,\n\t\"poids\": 79.7,\n} # (dictionary) cank dict(muri python)\n#____________________________ Gu-afficha____________________________________\nprint(f\"je mfise imyaka {imyaka}\") # nimba ushaka gu-afficha variables hamwe n'amajambo\nprint(kazinduzi[\"nom\"]) # gutora no ku-afficha valeur ya nom iri muri kazinduzi\nprint(urutonde[2]) # gutora no ku-afficha ikintu kigira kabiri mu rutonde ",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "i = 0 # aho boucle iza gutangirira\nwhile(i<5): # igarukira kuri  5\n\tprint(f\"muri boucle while {i}\")\n\ti = i+1 # iza irasimba igiharuro kimwe kimwe (incrementation)\n# --------------------------boucle for ----------------------------------------------\nfor x in range(5):\n\tprint(f\"muri boucle for {x}\")\n# __________________________________Exercices_______________________________________________\nabanyeshure = [\"bob\", \"honoris\", \"thyerry\", \"jamse\", \"rambo\", \"nestor\", \"milly\"]\n# ====================== ku afficha abanyeshure",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "\ti",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "\ti = i+1 # iza irasimba igiharuro kimwe kimwe (incrementation)\n# --------------------------boucle for ----------------------------------------------\nfor x in range(5):\n\tprint(f\"muri boucle for {x}\")\n# __________________________________Exercices_______________________________________________\nabanyeshure = [\"bob\", \"honoris\", \"thyerry\", \"jamse\", \"rambo\", \"nestor\", \"milly\"]\n# ====================== ku afficha abanyeshure\nfor umunyeshure in abanyeshure:\n\tprint(umunyeshure)\n# =================== ku afficha ibirimo muri kazinduzi (dictionnaire)",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "abanyeshure",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "abanyeshure = [\"bob\", \"honoris\", \"thyerry\", \"jamse\", \"rambo\", \"nestor\", \"milly\"]\n# ====================== ku afficha abanyeshure\nfor umunyeshure in abanyeshure:\n\tprint(umunyeshure)\n# =================== ku afficha ibirimo muri kazinduzi (dictionnaire)\nfor key, value in kazinduzi.items():\n\tprint(f\"{key} = {value}\")\n# +++++++++++++++++++++++++++++ama functions akoreshwa cane mu ma listes yo muri python\n# ============= function index (gutora position yikintu kiri muri list)\nx = abanyeshure.index(\"thyerry\")",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "\tprint(f\"{key}",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "\tprint(f\"{key} = {value}\")\n# +++++++++++++++++++++++++++++ama functions akoreshwa cane mu ma listes yo muri python\n# ============= function index (gutora position yikintu kiri muri list)\nx = abanyeshure.index(\"thyerry\")\n# ============ function len (gutora ukwo list ingana)\ny = len(abanyeshure)\nprint(x, y)",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "x = abanyeshure.index(\"thyerry\")\n# ============ function len (gutora ukwo list ingana)\ny = len(abanyeshure)\nprint(x, y)",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "bases.bases",
+        "description": "bases.bases",
+        "peekOfCode": "y = len(abanyeshure)\nprint(x, y)",
+        "detail": "bases.bases",
+        "documentation": {}
+    },
+    {
+        "label": "dictionnaire",
+        "kind": 5,
+        "importPath": "bases.dictio",
+        "description": "bases.dictio",
+        "peekOfCode": "dictionnaire = {\n\t\"izina\": \"Butoyi\",\n\t\"amatazirano\": \"Tom\",\n\t\"province\": \"Gitega\"\n}\n# x = dictionnaire[\"izina\"] #dictionnaire[\"province\"]\n# print(x)\n# print(dictionnaire[\"province\"])\n# for k in dictionnaire:\n# \tprint(f\"{k} ==> {dictionnaire[k]}\")",
+        "detail": "bases.dictio",
+        "documentation": {}
+    },
+    {
+        "label": "dictionnaire[\"imyaka\"]",
+        "kind": 5,
+        "importPath": "bases.dictio",
+        "description": "bases.dictio",
+        "peekOfCode": "dictionnaire[\"imyaka\"] = 17\nprint(dictionnaire)",
+        "detail": "bases.dictio",
+        "documentation": {}
+    },
+    {
+        "label": "kalist",
+        "kind": 5,
+        "importPath": "bases.somme",
+        "description": "bases.somme",
+        "peekOfCode": "kalist = [3, 9, 14, 18, 2003, 66]\n# somme = 0\n# for i in kalist:\n# \tsomme += i\n# print(somme)\n# a = sum(kalist)\n# print(a)\nfact = 1\nfor i in range(1,5):\n\tfact *= (i+1)",
+        "detail": "bases.somme",
+        "documentation": {}
+    },
+    {
+        "label": "fact",
+        "kind": 5,
+        "importPath": "bases.somme",
+        "description": "bases.somme",
+        "peekOfCode": "fact = 1\nfor i in range(1,5):\n\tfact *= (i+1)\n# next day we'll learn conditions and functions",
+        "detail": "bases.somme",
+        "documentation": {}
+    },
+    {
+        "label": "AlimentOtraco",
+        "kind": 6,
+        "importPath": "class.class_bonard",
+        "description": "class.class_bonard",
+        "peekOfCode": "class AlimentOtraco:\n    def __init__(self, nom_produit, prix, date_expiration) :\n        self.nom = nom_produit\n        self.beyi = prix\n        self.expiration = date_expiration\n        self.production = date_expiration - 3\n    def afficher(self):\n        print(self.nom)\n        print(self.beyi)\n        print(self.expiration)",
+        "detail": "class.class_bonard",
+        "documentation": {}
+    },
+    {
+        "label": "ingaburo",
+        "kind": 5,
+        "importPath": "class.class_bonard",
+        "description": "class.class_bonard",
+        "peekOfCode": "ingaburo = AlimentOtraco(\"amata\",1000, 2023)\ningaburo.afficher()\nisongo = AlimentOtraco(\"urwarwa\",5000, 2023)\nisongo.afficher()",
+        "detail": "class.class_bonard",
+        "documentation": {}
+    },
+    {
+        "label": "isongo",
+        "kind": 5,
+        "importPath": "class.class_bonard",
+        "description": "class.class_bonard",
+        "peekOfCode": "isongo = AlimentOtraco(\"urwarwa\",5000, 2023)\nisongo.afficher()",
+        "detail": "class.class_bonard",
+        "documentation": {}
+    },
+    {
+        "label": "Calculatrice",
+        "kind": 6,
+        "importPath": "class.class_calculatrice",
+        "description": "class.class_calculatrice",
+        "peekOfCode": "class Calculatrice:\n    def __init__(self, premiere_valeur, seconde_valeur):\n        self.premiere = premiere_valeur\n        self.seconde = seconde_valeur\n        self.operators = {\n        \"+\": self.add,\n        \"-\": self.soustr,\n        \"*\": self.mult,\n        \"/\": self.div\n        }",
+        "detail": "class.class_calculatrice",
+        "documentation": {}
+    },
+    {
+        "label": "bandanya",
+        "kind": 5,
+        "importPath": "class.class_calculatrice",
+        "description": "class.class_calculatrice",
+        "peekOfCode": "bandanya = \"o\"\nwhile bandanya == \"o\":\n    a = float(input(\"entrer le premier nombre => \"))\n    print(\"Koresha ibimenyetso + - * / kugira uharure\")\n    signe = input(\"entrer le signe \")\n    b = float(input(\"entrer le second nombre => \"))\n    calcul = Calculatrice(a,b)\n    res = calcul.case(signe)\n    print(f\"Reponse = {res}\")\n    bandanya = input(\"tapez o pour effectuer un nouveau calcul ou tapez une autre touche pour s'arreter la \")",
+        "detail": "class.class_calculatrice",
+        "documentation": {}
+    },
+    {
+        "label": "Todolist",
+        "kind": 6,
+        "importPath": "class.todo_list",
+        "description": "class.todo_list",
+        "peekOfCode": "class Todolist:\n    def __init__(\n         self, title=\"NULL\", details=\"NULL\", deadline=\"NULL\", resgister_date=dt.now(), is_completed=False\n    ):\n        self.title = title\n        self.details = details\n        self.resgister_date = resgister_date\n        self.deadline = deadline\n        self.is_completed = is_completed\n    def add_data(self):",
+        "detail": "class.todo_list",
+        "documentation": {}
+    },
+    {
+        "label": "_CON",
+        "kind": 5,
+        "importPath": "class.todo_list",
+        "description": "class.todo_list",
+        "peekOfCode": "_CON = sqlite3.connect(\"example.db\")\ncur =_CON.cursor()\ncur.execute(\n\"\"\"CREATE TABLE IF NOT EXISTS  todos\n            (todo_id INTEGER PRIMARY KEY, title varchar(45), details text, register_date datetime, \n            deadline datetime, is_completed varchar(5))\"\"\"\n            )\ncur.close()\nclass Todolist:\n    def __init__(",
+        "detail": "class.todo_list",
+        "documentation": {}
+    },
+    {
+        "label": "test_arg",
+        "kind": 2,
+        "importPath": "class_data_base.test",
+        "description": "class_data_base.test",
+        "peekOfCode": "def test_arg():\n    b = 0\n    while b == 0:\n        x = input(\"taper un nbre => \")\n        print(x)\n        y = input(\"taper un nbre => \")\n        print(y)\n        b = int(input(\"taper le choix = \"))\n        if b == 0:\n            test_arg()",
+        "detail": "class_data_base.test",
+        "documentation": {}
+    },
+    {
+        "label": "moyenne",
+        "kind": 2,
+        "importPath": "functions.function2",
+        "description": "functions.function2",
+        "peekOfCode": "def moyenne(nixi, N):\n    s = 0\n    for i in nixi:\n        s = s + i\n    m = s/N\n    print(m)\nurutonde = [5,6.5,7,12,20]\nx = len(urutonde)\nmoyenne(urutonde, x)",
+        "detail": "functions.function2",
+        "documentation": {}
+    },
+    {
+        "label": "urutonde",
+        "kind": 5,
+        "importPath": "functions.function2",
+        "description": "functions.function2",
+        "peekOfCode": "urutonde = [5,6.5,7,12,20]\nx = len(urutonde)\nmoyenne(urutonde, x)",
+        "detail": "functions.function2",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "functions.function2",
+        "description": "functions.function2",
+        "peekOfCode": "x = len(urutonde)\nmoyenne(urutonde, x)",
+        "detail": "functions.function2",
+        "documentation": {}
+    },
+    {
+        "label": "sum_et_moy1",
+        "kind": 2,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "def sum_et_moy1(l, lt): #sans valeur de retour (void)\n\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/lt\n\tprint(m)\ndef sum_et_moy2(l): #avec valeur de retour (return)\n\ts = 0\n\tfor i in l:\n\t\ts+=i",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "sum_et_moy2",
+        "kind": 2,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "def sum_et_moy2(l): #avec valeur de retour (return)\n\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/len(l)\n\treturn m\nx = sum_et_moy2(ult)\nprint(x)",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "ub",
+        "kind": 5,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "ub = [7, 9, 13, 11, 18, 7]\nult = [6, 13.5, 15, 7, 8]\ndef sum_et_moy1(l, lt): #sans valeur de retour (void)\n\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/lt\n\tprint(m)\ndef sum_et_moy2(l): #avec valeur de retour (return)\n\ts = 0",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "ult",
+        "kind": 5,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "ult = [6, 13.5, 15, 7, 8]\ndef sum_et_moy1(l, lt): #sans valeur de retour (void)\n\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/lt\n\tprint(m)\ndef sum_et_moy2(l): #avec valeur de retour (return)\n\ts = 0\n\tfor i in l:",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "\ts",
+        "kind": 5,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/lt\n\tprint(m)\ndef sum_et_moy2(l): #avec valeur de retour (return)\n\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/len(l)",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "\tm",
+        "kind": 5,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "\tm = s/lt\n\tprint(m)\ndef sum_et_moy2(l): #avec valeur de retour (return)\n\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/len(l)\n\treturn m\nx = sum_et_moy2(ult)\nprint(x)",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "\ts",
+        "kind": 5,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "\ts = 0\n\tfor i in l:\n\t\ts+=i\n\tm = s/len(l)\n\treturn m\nx = sum_et_moy2(ult)\nprint(x)",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "\tm",
+        "kind": 5,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "\tm = s/len(l)\n\treturn m\nx = sum_et_moy2(ult)\nprint(x)",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "x = sum_et_moy2(ult)\nprint(x)",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "dictionnaire",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "dictionnaire = {\n    \"nom\": \"bonard\",\n    \"age\": 30\n}\nx = dictionnaire[\"age\"]\n# print(x)\ny = dictionnaire.get(\"province\", \"ikosa\")\nprint(y)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "x = dictionnaire[\"age\"]\n# print(x)\ny = dictionnaire.get(\"province\", \"ikosa\")\nprint(y)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "y = dictionnaire.get(\"province\", \"ikosa\")\nprint(y)",
+        "detail": "test",
+        "documentation": {}
+    }
+]
