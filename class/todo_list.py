@@ -39,7 +39,7 @@ class Todolist:
     def get_all(cls):
         con = sqlite3.connect("example.db")
         cur = con.cursor()
-        cur.execute("SELECT * FROM todos where is_completed")
+        cur.execute("SELECT * FROM todos")
         return list(cur)
 
     @classmethod
@@ -74,11 +74,16 @@ class Todolist:
     def update_where(self, id_):
         con = sqlite3.connect("example.db")
         cur = con.cursor()
-        cur.execute(f"""UPDATE todos SET title={self.title}, details={self.details}
-        register_date={self.resgister_date}, deadline={self.deadline}, is_completed={self.is_completed},   
+        cur.execute(f"""UPDATE todos SET title='{self.title}', details='{self.details}', 
+        register_date='{self.resgister_date}', 
+        deadline='{self.deadline}', is_completed='{self.is_completed}'   
         where todo_id={id_}""")
+        con.commit()
         con.close()
 
+
+x = Todolist("jeux", "suis", dt(2025,3,15), is_completed=False)
+x.update_where(1)
 
 for x in Todolist.get_all():
     print(x)

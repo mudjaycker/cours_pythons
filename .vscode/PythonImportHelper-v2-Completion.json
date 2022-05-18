@@ -232,6 +232,15 @@
         "documentation": {}
     },
     {
+        "label": "x",
+        "kind": 5,
+        "importPath": "class.todo_list",
+        "description": "class.todo_list",
+        "peekOfCode": "x = Todolist(\"jeux\", \"suis\", dt(2025,3,15), is_completed=False)\nx.update_where(1)\nfor x in Todolist.get_all():\n    print(x)",
+        "detail": "class.todo_list",
+        "documentation": {}
+    },
+    {
         "label": "test_arg",
         "kind": 2,
         "importPath": "class_data_base.test",
