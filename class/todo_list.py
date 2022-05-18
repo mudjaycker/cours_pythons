@@ -39,8 +39,30 @@ class Todolist:
     def get_all(cls):
         con = sqlite3.connect("example.db")
         cur = con.cursor()
-        cur.execute("SELECT * FROM todos")
-        print(list(cur))
+        cur.execute("SELECT * FROM todos where is_completed")
+        return list(cur)
+
+    @classmethod
+    def get_completed(cls):
+        con = sqlite3.connect("example.db")
+        cur = con.cursor()
+        cur.execute("SELECT * FROM todos where is_completed is 'True'")
+        return list(cur)
+
+    @classmethod
+    def get_uncompleted(cls):
+        con = sqlite3.connect("example.db")
+        cur = con.cursor()
+        cur.execute("SELECT * FROM todos where is_completed is 'False'")
+        return list(cur)
+
+
+    @classmethod
+    def get_whrere(cls, id_):
+        con = sqlite3.connect("example.db")
+        cur = con.cursor()
+        cur.execute(f"SELECT * FROM todos where todo_id={id_}")
+        return [x for x in cur]
 
     @classmethod
     def get_whrere(cls, id_):
